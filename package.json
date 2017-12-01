@@ -7,34 +7,27 @@
     "body-parser": "^1.18.2",
     "connect-flash": "^0.1.1",
     "cors": "^2.8.4",
-    "del": "^3.0.0",
     "ejs": "^2.5.7",
     "express": "^4.16.2",
     "express-session": "^1.15.6",
     "method-override": "^2.3.10",
-    "mongoose": "^4.12.5",
-    "morgan": "^1.9.0",
-    "multer": "^1.3.0",
-    "nodemailer": "^4.4.0",
-    "passport": "^0.4.0",
-    "passport-local": "^1.0.0",
-    "passport-local-mongoose": "^4.4.0"
+    "morgan": "^1.9.0"
   },
   "devDependencies": {
     "nodemon": "^1.12.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/gemini88mill/COP4331-Employee-Tracker.git"
+    "url": "git+ssh://git@github.com:tparkerd/cop4331-employee-tracker-web.git"
   },
   "author": "Gabrielle Michaels",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gemini88mill/COP4331-Employee-Tracker/issues"
+    "url": "https://github.com/tparkerd/cop4331-employee-tracker-web/issues"
   },
-  "homepage": "https://github.com/gemini88mill/COP4331-Employee-Tracker#readme"
+  "homepage": "https://github.com/tparkerd/cop4331-employee-tracker-web#readme"
 }
